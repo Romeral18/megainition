@@ -73,3 +73,9 @@ h1,h2,h3,h4,h5.h6{font-size: inherit;font-weight: 400;}
 .wspace{
     word-spacing: 5px;
 }
+.whspace{
+    white-space: nowrap;
+}
+.lineh{
+    line-height: 20px;
+}
