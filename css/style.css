@@ -5,10 +5,14 @@ div{
 
 
 .block{
-    font-size: 15px;
-    color: greenyellow;
+    font-size: 15px;ss
 }
 .bigred{
-    font-size: 25px
-    color  red;
+    font-size: 25px;
+    color: red;
+    
+    }
+span{
+    font-size: 50px;
+    color: rgb(190, 27, 122);
 }
