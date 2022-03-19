@@ -37,13 +37,13 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5.h6{font-size: inherit;font-weight: 400;}
 
 .example-block{
-width: 500px;
+min-width: 500px;
 border: 1px solid #000;
 }
 
 .example-string{
- width: 500px;
+
 }
 .foto1{
-    width: ;
+   width: 100px;
 }
