@@ -35,45 +35,15 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 
 h1,h2,h3,h4,h5.h6{font-size: inherit;font-weight: 400;}
-.block{
-    padding: 30px;
-    margin: 20px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-.imp{
-    font-size: 40px;
-    color: rgb(38, 38, 104)}
-.tall{
-    line-height: 30px;
-}
-.weigth{
-    font-weight: 900;
-}
-.redred{
-    color: red;
-}
-.right{
-    text-align: right;
-}
-.upper{
-    text-transform: uppercase;
-}
-.italic{
-    font-style: italic;
-}
-.roude{
-    text-decoration: underline;
-}
-.centre{
-    text-align: center;
-}
-.size{
-    font-size: 30px;
-}
-.decor{
-    text-decoration: line-through;
-}
-.fam{
-    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
 
+.example-block{
+width: 500px;
+border: 1px solid #000;
+}
+
+.example-string{
+ width: 500px;
+}
+.foto1{
+    width: ;
 }
