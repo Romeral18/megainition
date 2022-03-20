@@ -72,12 +72,17 @@ h5.h6 {
   font-weight: 400;
 }
 .example-block {
+  overflow: hidden;
+  height: 200px;
+  opacity: 0;
   font-size: 50px;
   margin: 0 0 20px 0;
 }
 .example-string {
   font-size: 50px;
+  visibility: hidden;
 }
 .example-image {
-  outline: 5px solid #000;
+  border-radius: 100px;
+  overflow: hidden;
 }
