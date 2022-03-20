@@ -72,11 +72,21 @@ h5.h6 {
   font-weight: 400;
 }
 body {
-  padding: 30px;
+  font-family: serif;
+  padding: 150px 30px 30px 30px;
 }
 .block {
-  background: url('../img/фон.jpg') repeat-x;
-  height: 300px;
+  background: url('../img/пппп.png') 50% 40% no-repeat, url('../img/фон.jpg') 0 0 no-repeat, url('../img/background-attachment.png') 50% / cover no-repeat;
+  height: 500px;
   border-radius: 15px;
   box-shadow: 0 0 10px #000;
+}
+.list {
+  margin: 0 0 50px 0;
+}
+.list li {
+  font-size: 24px;
+  margin: 0 0 15px 0;
+  background: url('../img/checkmark.png') left / 15px 15px no-repeat;
+  padding: 0 0  0 20px;
 }
