@@ -38,9 +38,9 @@ h1,h2,h3,h4,h5.h6{font-size: inherit;font-weight: 400;}
 
 .container {
     font-size: 24px;
-    margin: 125px 290px;
+    margin: 125px 290px 0 290px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: 
+    
 }
 
 .title {
@@ -57,21 +57,51 @@ h1,h2,h3,h4,h5.h6{font-size: inherit;font-weight: 400;}
 .foto {
     text-align: center;
     border: 10px solid white;
+    margin: 0 0 108px 0;
 }
-.sometext2 {
-    margin: 108px 0 0 0;
+.sometext{
+    
+}
+.sometext2{
+
 }
 .sometext3 {
+    margin: 70px 0;
 }
-.table {
 
-		&__text1 {}
-
-		&__text2 {}
-
-		&__text3 {}
-
-		&__text4 {}
+.table li {
+    background: url('/img/checkmark.png') 0px 5px/15px no-repeat;
+    padding: 0 0 0 20px;
 }
-.button {
+.item {
+
+		&__table {
+            font-weight: 500;
+        }
+
+		&__table1 {
+            font-style: italic;
+            color: rgb(100, 204, 140);
+        }
+
+		&__table2 {font-weight: 700;
+        }
+
+		&__table3 {
+            text-decoration: line-through;
+            color: rgb(162, 159, 163);
+        }
+}
+
+
+.button { 
+    margin: 60px 1070px 30px 30px;
+    border-radius: 50px;
+    background: rgb(100, 204, 140);
+    color: rgb(252, 252, 252);
+    font-size: 14px;
+    padding: 10px 15px;
+    letter-spacing: 3px;
+    text-align: center;
+    
 }

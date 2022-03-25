@@ -73,7 +73,7 @@ h5.h6 {
 }
 .container {
   font-size: 24px;
-  margin: 125px 290px;
+  margin: 125px 290px 0 290px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .title {
@@ -89,4 +89,36 @@ h5.h6 {
 .foto {
   text-align: center;
   border: 10px solid white;
+  margin: 0 0 108px 0;
+}
+.sometext3 {
+  margin: 70px 0;
+}
+.table li {
+  background: url('/img/checkmark.png') 0px 5px/15px no-repeat;
+  padding: 0 0 0 20px;
+}
+.item__table {
+  font-weight: 500;
+}
+.item__table1 {
+  font-style: italic;
+  color: #64cc8c;
+}
+.item__table2 {
+  font-weight: 700;
+}
+.item__table3 {
+  text-decoration: line-through;
+  color: #a29fa3;
+}
+.button {
+  margin: 60px 1070px 30px 30px;
+  border-radius: 50px;
+  background: #64cc8c;
+  color: #fcfcfc;
+  font-size: 14px;
+  padding: 10px 15px;
+  letter-spacing: 3px;
+  text-align: center;
 }
