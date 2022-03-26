@@ -71,54 +71,31 @@ h5.h6 {
   font-size: inherit;
   font-weight: 400;
 }
-.container {
+body {
+  padding: 30px;
+}
+.text {
   font-size: 24px;
-  margin: 125px 290px 0 290px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 33px;
+  margin: 0 0 30px 0;
 }
-.title {
-  text-align: center;
-  font-size: 10px;
-  text-transform: uppercase;
-  margin: 0 0 17px 0;
+.list {
+  font-size: 24px;
 }
-.sometext {
-  margin: 0 58px 86px;
-  text-align: center;
+.text:first-line {
+  color: green;
 }
-.foto {
-  text-align: center;
-  border: 10px solid white;
-  margin: 0 0 108px 0;
+.text::first-letter {
+  color: red;
+  font-size: 50px;
 }
-.sometext3 {
-  margin: 70px 0;
+.list li {
+  font-size: 24px;
+  margin: 0 0 20px 0;
 }
-.table li {
-  background: url('/img/checkmark.png') 0px 5px/15px no-repeat;
-  padding: 0 0 0 20px;
+.list li:before {
+  content: '<<';
 }
-.item__table {
-  font-weight: 500;
-}
-.item__table1 {
-  font-style: italic;
-  color: #64cc8c;
-}
-.item__table2 {
-  font-weight: 700;
-}
-.item__table3 {
-  text-decoration: line-through;
-  color: #a29fa3;
-}
-.button {
-  margin: 60px 1070px 30px 30px;
-  border-radius: 50px;
-  background: #64cc8c;
-  color: #fcfcfc;
-  font-size: 14px;
-  padding: 10px 15px;
-  letter-spacing: 3px;
-  text-align: center;
+.list li:after {
+  content: '>>';
 }
