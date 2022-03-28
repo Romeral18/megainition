@@ -71,37 +71,33 @@ h5.h6 {
   font-size: inherit;
   font-weight: 400;
 }
-body {
+.conteiner {
   padding: 30px;
-}
-.text {
   font-size: 24px;
-  line-height: 33px;
-  margin: 0 0 30px 0;
+  line-height: 30px;
 }
 .list {
-  font-size: 24px;
+  margin: 0 0 130px 0;
 }
-.text:first-line {
-  color: green;
+.list2 {
+  margin: 0 0 200px 0;
 }
-.text::first-letter {
-  color: red;
-  font-size: 50px;
+.constrbutton {
+  margin: 0 0 200px 0;
 }
-.list li {
-  font-size: 24px;
-  margin: 0 0 20px 0;
-}
-.list li:before {
-  content: '';
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: red;
+.button {
   display: inline-block;
-  margin: 0 10px 0 0;
 }
-.list li:hover:before {
-  background-color: yellow;
+.button2 {
+  display: inline-block;
+}
+.button3 {
+  display: inline-block;
+}
+.text::first-line {
+  color: red;
+}
+.text2::first-letter {
+  font-size: 30px;
+  color: red;
 }
