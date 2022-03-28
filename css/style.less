@@ -44,6 +44,10 @@ body{
 .block {
     margin: 0 0 20px 0;
 }
+.block p:nth-child(even){
+    text-transform: capitalize;
+
+}
 
 
 .block p{
@@ -92,6 +96,15 @@ body{
     color: #fff;
     text-transform: uppercase;
     margin: 0 0 30px 0;
+
+}
+.textbutton:hover{
+    background-color: #333;
+    color: yellow;   
+}
+.textbutton:active{
+    background-color: #66f;
+    
 }
 
 
@@ -100,4 +113,15 @@ body{
 .list li{
     font-size: 18px;
     margin: 0px 0 15px 0;
+}
+/*
+.list li:first-child{
+    color: green;
+}
+.list li:last-child{
+    color: gray;
+}
+*/
+.list li:nth-child(even){
+    text-transform: uppercase;
 }
