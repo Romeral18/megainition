@@ -72,6 +72,8 @@ h5.h6 {
   font-weight: 400;
 }
 .block {
+  background: #666;
+  width: 33%;
   padding: 30px;
   line-height: 60px;
 }
