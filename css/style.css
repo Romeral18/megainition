@@ -75,33 +75,20 @@ body {
   padding: 30px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-.block {
-  border: 5px solid #ff0000;
-  max-width: 800px;
-  height: 1500px;
-  margin: 0 auto;
-  position: relative;
-}
-.block div {
-  line-height: 50px;
+.list {
   font-size: 18px;
-  font-weight: 700;
-  text-align: center;
 }
-.block__1 {
-  background-color: #ece89d;
+.list li {
+  margin: 0 0 10px 0;
+  position: relative;
+  padding: 0 0 0 30px;
 }
-.block__2 {
-  background-color: #5e5373;
-  color: white;
-  position: sticky;
+.list li::before {
+  content: '';
+  background: url(../img/checkmark.png) 0 0/20px no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
   top: 0;
-}
-.block__3 {
-  background-color: #18b5a4;
-}
-.block__4 {
-  background-color: #c7174c;
-  position: sticky;
-  top: 0;
+  left: 0;
 }
