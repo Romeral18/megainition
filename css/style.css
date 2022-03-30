@@ -92,3 +92,6 @@ h5.h6 {
 .link:hover {
   color: #5fe;
 }
+.link-2 {
+  font-size: 100px;
+}
