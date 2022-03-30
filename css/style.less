@@ -38,16 +38,39 @@ h1,h2,h3,h4,h5.h6{font-size: inherit;font-weight: 400;}
 
 body{
     padding: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .block {
     border: 5px solid rgb(255, 0, 0);
-    min-width: 800px;
+    max-width: 800px;
+    height: 800px;
     margin: 0 auto;
+    position: relative;
+    
+    & div{
+        line-height: 50px;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        
 
-    &__1 {}
+    }
 
-    &__2 {}
+    &__1 {
+        background-color: #ece89d;
 
-    &__3 {}
+    }
+
+    &__2 {
+        background-color: #5e5373;
+        color: white;
+        
+    }
+
+    &__3 {
+        background-color: #18b5a4;
+        
+        
+    }
 }

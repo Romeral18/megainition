@@ -73,9 +73,28 @@ h5.h6 {
 }
 body {
   padding: 30px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .block {
   border: 5px solid #ff0000;
-  min-width: 800px;
+  max-width: 800px;
+  height: 800px;
   margin: 0 auto;
+  position: relative;
+}
+.block div {
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.block__1 {
+  background-color: #ece89d;
+}
+.block__2 {
+  background-color: #5e5373;
+  color: white;
+}
+.block__3 {
+  background-color: #18b5a4;
 }
