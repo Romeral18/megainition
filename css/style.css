@@ -71,3 +71,11 @@ h5.h6 {
   font-size: inherit;
   font-weight: 400;
 }
+body {
+  padding: 30px;
+}
+.block {
+  border: 5px solid #ff0000;
+  min-width: 800px;
+  margin: 0 auto;
+}
