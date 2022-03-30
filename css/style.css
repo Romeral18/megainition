@@ -73,7 +73,7 @@ h5.h6 {
 }
 .conteiner {
   margin: 120px 270px 0;
-  line-height: 10px;
+  line-height: 25px;
   font-size: 18px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -139,26 +139,64 @@ h5.h6 {
 .item6:hover {
   color: red;
 }
+.buttons {
+  margin: 0 0 50px 0;
+}
 .button1 {
   display: inline-block;
-  height: 3em;
-  width: 9em;
+  height: 2.5em;
+  width: 13em;
+  border-radius: 100px;
+  background: #87bb9c;
+  text-align: center;
+  margin: 0 250px 0 80px;
+  color: white;
+  padding: 10px 0 0 0;
+}
+.button1::after {
+  content: '\2192';
+  margin: 0 0 5px 15px;
+  font-size: 22px;
 }
 .button2 {
   display: inline-block;
-  height: 3em;
-  width: 9em;
-  border-radius: 10%;
+  height: 2.5em;
+  width: 13em;
+  border-radius: 100px;
   background: #87bb9c;
   text-align: center;
+  margin: 0 250px 0 0;
+  color: white;
+  padding: 10px 0 0 0;
+}
+.button2::after {
+  content: '\2192';
+  margin: 0 0 5px 15px;
+}
+.button2:hover {
+  background-color: #305f4d;
 }
 .button3 {
   display: inline-block;
-  height: 3em;
-  width: 9em;
+  height: 2.5em;
+  width: 13em;
+  border-radius: 100px;
+  background: #87bb9c;
+  text-align: center;
+  color: white;
+  padding: 10px 0 0 0;
 }
-.text1 {
-  margin: 3em 0 3em 0;
-  border: 1px solid #000;
-  height: 50px;
+.button3::after {
+  content: '\2192';
+  margin: 0 0 5px 15px;
+}
+.button3:active {
+  background-color: #817e7e;
+}
+.text1::first-letter {
+  color: red;
+  font-size: 50px;
+}
+.text2::first-line {
+  color: red;
 }
