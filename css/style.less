@@ -36,102 +36,117 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5.h6{font-size: inherit;font-weight: 400;}
 
-
-body{
-    padding: 30px;
-}
-
-.block {
-    margin: 0 0 20px 0;
-}
-.block p:nth-child(1){
-    background-color: yellow;
-
-}
-.block p:nth-child(2){
-    background-color: red;
-
-}
-.block p:nth-child(3){
-    background-color: green;
-
-}
-.block p:nth-child(2):hover{
-    background-color: #eee;
-}
-
-.block p{
+.conteiner {
+    margin: 120px 270px 0;
+    line-height: 10px;
     font-size: 18px;
-    line-height: 24px;
-    margin: 0 0 20px 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-.link {
-    color: red;
-}
-
-.link:visited{
-    color: green;
-}
-
-.link:hover{
-    text-decoration: underline;
-    color: blue;
-
-}
-
-.link:active{
-    color: yellow;
-}
-
-
-
-.textinput {
-    border: 1px solid rgb(161, 141, 129);
-    height: 50px;
-    padding: 0 15px;
-    width: 300px;
-    font-size: 18px;
+.title {
+    text-transform: uppercase;
+    font-size: 10px;
     margin: 0 0 10px 0;
 }
-
-.textinput:focus{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-}
-
-.textbutton {
-    display: block;
-    width: 300px;
-    height: 50px;
-    background-color: rgb(161, 141, 129);
-    color: #fff;
-    text-transform: uppercase;
-    margin: 0 0 30px 0;
-
-}
-.textbutton:hover{
-    background-color: #333;
-    color: yellow;   
-}
-.textbutton:active{
-    background-color: #66f;
-
-}
-
-
 .list {
+    margin: 0 0 50px 0;
 }
+
 .list li{
-    font-size: 18px;
-    margin: 0px 0 15px 0;
+    margin: 2px;
+    padding: 0.5em 0.5em 0.5em 2em;
+    position: relative;
+
+    
 }
-/*
-.list li:first-child{
-    color: green;
+
+
+.list li:before{
+    content: '';
+  position: absolute;
+  border-color: #009933;
+  border-style: solid;
+  border-width: 0 0.3em 0.25em 0;
+  height: 1em;
+  top: 1.3em;
+  left: 0.6em;
+  margin-top: -1em;
+  transform: rotate(45deg);
+  width: 0.5em;
 }
-.list li:last-child{
-    color: gray;
+.list2 {
+    margin: 0 0 3em 0;
 }
-*/
-.list li:nth-child(even){
+.list2 li{
+    margin: 2px;
+    padding: 0.5em 0.5em 0.5em 2em;
+    position: relative;
+
+    
+}
+
+
+.list2 li:before{
+    content: '';
+  position: absolute;
+  border-color: #009933;
+  border-style: solid;
+  border-width: 0 0.3em 0.25em 0;
+  height: 1em;
+  top: 1.3em;
+  left: 0.6em;
+  margin-top: -1em;
+  transform: rotate(45deg);
+  width: 0.5em;
+}
+.item1 {
+    text-decoration: line-through;
+}
+.item2 {
+    font-weight: 600;
+}
+.item3 {
+    font-style: italic;
+}
+.item4 {
     text-transform: uppercase;
+}
+.item5 {
+}
+.item6:hover{
+    color: red;
+}
+.item7 {
+}
+.item8 {
+}
+
+.button1 {
+    display: inline-block;
+    height: 3em;
+    width: 9em;
+
+}
+.button2 {
+    display: inline-block;
+    height: 3em;
+    width: 9em;
+    border-radius: 10%;
+    background: rgb(135, 187, 156);
+    text-align: center;
+
+}
+.button3 {
+    display: inline-block;
+    height: 3em;
+    width: 9em;
+
+}
+.text1 {
+    
+    margin: 3em 0 3em 0; 
+    border: 1px solid #000;
+    height: 50px;
+}
+.text2 {
+
 }
