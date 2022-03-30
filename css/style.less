@@ -36,27 +36,16 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5.h6{font-size: inherit;font-weight: 400;}
 
-body{
+.block{
     padding: 30px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-
-.list{
-    font-size: 18px;
-   
+    font-size: 50px;
+    line-height: 60px;
     
-    & li{
-        margin: 0 0 10px 0;
-        position: relative;
-        padding: 0 0 0 30px;
+    .block__text{
+        font-size: 80px;
+        span{
+            color: green;
+        }
     }
-    & li::before{
-        content: '';
-        background: url(../img/checkmark.png) 0 0/20px no-repeat;
-        width: 20px;
-        height: 20px;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
+
 }
