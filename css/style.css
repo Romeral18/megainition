@@ -73,12 +73,22 @@ h5.h6 {
 }
 .block {
   padding: 30px;
-  font-size: 50px;
   line-height: 60px;
 }
 .block .block__text {
-  font-size: 80px;
+  font-size: 100px;
 }
 .block .block__text span {
-  color: green;
+  color: #0a0;
+}
+.link {
+  color: #e54;
+  text-decoration: underline;
+  font-size: 100px;
+}
+.block .link {
+  font-size: 100px;
+}
+.link:hover {
+  color: #5fe;
 }

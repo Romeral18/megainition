@@ -36,16 +36,33 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5.h6{font-size: inherit;font-weight: 400;}
 
+@fz: 100px;
+@color_1: #0a0;
+@color_2: #e54;
+@color_3: #5fe;
+
 .block{
     padding: 30px;
-    font-size: 50px;
     line-height: 60px;
     
     .block__text{
-        font-size: 80px;
+        font-size: @fz;
         span{
-            color: green;
+            color: @color_1;
         }
     }
-
+    
+}
+.link{
+    color: @color_2;
+    text-decoration: underline;
+    font-size: @fz;
+    .block &{
+        font-size: @fz;
+    }
+    
+    
+    &:hover{
+        color: @color_3;
+    }
 }
