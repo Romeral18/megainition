@@ -78,7 +78,7 @@ body {
 .block {
   border: 5px solid #ff0000;
   max-width: 800px;
-  height: 800px;
+  height: 1500px;
   margin: 0 auto;
   position: relative;
 }
@@ -94,7 +94,14 @@ body {
 .block__2 {
   background-color: #5e5373;
   color: white;
+  position: sticky;
+  top: 0;
 }
 .block__3 {
   background-color: #18b5a4;
+}
+.block__4 {
+  background-color: #c7174c;
+  position: sticky;
+  top: 0;
 }
