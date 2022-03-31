@@ -83,13 +83,12 @@ body {
 .block__row {
   display: flex;
   flex-direction: column-reverse;
-  /*align-items: flex-end;*/
   border: 20px solid #ece89d;
   margin: 0 0 20px 0;
   height: 700px;
 }
 .block__column_2 {
-  flex: 1 /*flex-grow*/ 1 /*flex-shrink*/ auto /*flex-basis*/;
+  flex: 1 1 auto;
 }
 .block__column {
   border: 20px solid #5e5373;
