@@ -11,18 +11,28 @@ body{
     padding: 50px;
 }
 .block {
+
     
 
-		&_info {}
+	
 
 		&__row {
+           display: flex;
+           
+           
+
             border: 20px solid #ece89d;
             margin: 0 0 20px 0;
         }
 
+        &__column_1 {}
+        &__column_2 {}
+        &__column_3 {}
+
 		&__column {
             border: 20px solid #5e5373;
         }
+        
 
 		&__item {
             background-color: #18b5a4;
@@ -31,12 +41,16 @@ body{
             color: #fff;
             font-weight: 700;
         }
-
+        &__example_1 {
+            padding: 150px;
+        }
+       
 		&__list {
             display: flex;
             align-items: center;
             li{margin: 0 15px 0 0;}
                 &:last-child{margin: 0 0 0 0;}
+        
         }
 
 		&__info {
