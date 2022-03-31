@@ -18,24 +18,30 @@ body{
 
 		&__row {
            display: flex;
+           flex-direction: column-reverse;
+           /*align-items: flex-end;*/
+
            
            
 
             border: 20px solid #ece89d;
             margin: 0 0 20px 0;
+
+            height: 700px;
         }
 
-        &__column_1 {}
-        &__column_2 {}
-        &__column_3 {}
+        &__column_1 {
+        }
+        &__column_2 {
+            flex: 1/*flex-grow*/ 1/*flex-shrink*/ auto/*flex-basis*/;
+        }
+        &__column_3 {
+            
+        }
 
 		&__column {
             border: 20px solid #5e5373;
-            /*flex-basis: 500px;
-            flex-grow: 1;
-            flex-shrink: 0;*/
-            flex: 0 1 auto ;
-
+            
         }
         
 
