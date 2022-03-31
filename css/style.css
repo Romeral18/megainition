@@ -87,6 +87,10 @@ body {
 }
 .block__column {
   border: 20px solid #5e5373;
+  /*flex-basis: 500px;
+            flex-grow: 1;
+            flex-shrink: 0;*/
+  flex: 0 1 auto ;
 }
 .block__item {
   background-color: #18b5a4;
@@ -96,7 +100,7 @@ body {
   font-weight: 700;
 }
 .block__example_1 {
-  padding: 150px;
+  padding: 70px 150px;
 }
 .block__list {
   display: flex;
