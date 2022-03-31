@@ -1,43 +1,77 @@
 // Файл обнуляющих стилей
 @import url('./nullstyle.less');
 
-@fz: 100px;
-@color_1: #0a0;
-@color_2: #e54;
-@color_3: #5fe;
-
-
-.block{
-    background: #666;
-    width: 33%;
-    padding: 30px;
-    line-height: 60px;
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.wrapper {
+    height: 100%;
+    overflow: hidden;
+    min-height: 100%;
+    padding: 50px;
+}
+.block {
     
-    .block__text{
-        font-size: @fz;
-        span{
-            color: @color_1;
+
+		&_info {}
+
+		&__row {
+            border: 20px solid #ece89d;
+            margin: 0 0 20px 0;
         }
-    }
-    
-}
-.link{
-    color: @color_2;
-    text-decoration: underline;
-    font-size: @fz;
-    .block &{
-        font-size: @fz;
-    }
-    
-    
-    &:hover{
-        color: @color_3;
-    }
-   
-}
-// шаблон номер 1
-.link-2{
-    font-size: @fz;
-    
-    
+
+		&__column {
+            border: 20px solid #5e5373;
+        }
+
+		&__item {
+            background-color: #18b5a4;
+            padding: 50px;
+            font-size: 50px;
+            color: #fff;
+            font-weight: 700;
+        }
+
+		&__list {
+            display: flex;
+            align-items: center;
+            li{margin: 0 15px 0 0;}
+                &:last-child{margin: 0 0 0 0;}
+        }
+
+		&__info {
+            position: relative;
+            padding: 0 0 0 20px;
+            line-height: 15px;
+
+			&_y::before {
+                content: '';
+                height: 15px;
+                width: 15px;
+                background-color: #ece89d;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+			&_p::before {
+                content: '';
+                height: 15px;
+                width: 15px;
+                background-color: #5e5373;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+			&_g::before {
+                content: '';
+                height: 15px;
+                width: 15px;
+                background-color: #18b5a4;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+		}
 }
