@@ -102,87 +102,120 @@ body {
   align-items: center;
   border-radius: 50%;
 }
-.n1 {
+.watch__point {
+  background-color: #000;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.watch__arrow_hour {
+  background-color: #000;
+  height: 130px;
+  width: 10px;
+  display: flex;
+  position: absolute;
+  top: 368px;
+}
+.watch__arrow_minite {
+  background-color: #020202;
+  height: 170px;
+  width: 6px;
+  display: flex;
+  position: absolute;
+  top: 340px;
+}
+.watch__arrow_second {
+  background-color: #020202;
+  height: 170px;
+  width: 2px;
+  display: flex;
+  position: absolute;
+  top: 340px;
+}
+.watch .n1 {
   position: absolute;
   top: 72%;
   left: 54%;
   font-size: 40px;
   font-weight: 700px;
 }
-.n2 {
+.watch .n2 {
   position: absolute;
   top: 84%;
   left: 57%;
   font-size: 40px;
   font-weight: 700px;
 }
-.n3 {
+.watch .n3 {
   position: absolute;
   top: 104.5%;
   left: 58.5%;
   font-size: 40px;
   font-weight: 700px;
 }
-.n4 {
+.watch .n4 {
   position: absolute;
   top: 124%;
   left: 57%;
   font-size: 40px;
   font-weight: 700px;
 }
-.n5 {
+.watch .n5 {
   position: absolute;
   top: 138%;
   left: 54%;
   font-size: 40px;
   font-weight: 700px;
 }
-.n6 {
+.watch .n6 {
   position: absolute;
   top: 145%;
   left: 49.5%;
   font-size: 40px;
   font-weight: 700px;
 }
-.n7 {
+.watch .n7 {
   position: absolute;
   top: 138%;
   left: 45%;
   font-size: 40px;
   font-weight: 700px;
 }
-.n8 {
+.watch .n8 {
   position: absolute;
   top: 124%;
   left: 42%;
   font-size: 40px;
   font-weight: 700px;
 }
-.n9 {
+.watch .n9 {
   position: absolute;
   top: 104.5%;
   left: 40.5%;
   font-size: 40px;
   font-weight: 700px;
 }
-.n10 {
+.watch .n10 {
   position: absolute;
-  top: 84%;
-  left: 42%;
+  top: 85%;
+  left: 41.5%;
   font-size: 40px;
   font-weight: 700px;
 }
-.n11 {
+.watch .n11 {
   position: absolute;
-  top: 70%;
-  left: 45.5%;
+  top: 71%;
+  left: 44.5%;
   font-size: 40px;
   font-weight: 700px;
 }
-.n12 {
+.watch .n12 {
   position: absolute;
   top: 65%;
-  left: 49.5%;
+  left: 49.1%;
   font-size: 40px;
   font-weight: 700px;
 }
