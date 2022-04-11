@@ -13,3 +13,11 @@ document.querySelector('h1').innerHTML = 'rambo'
 document.querySelector('.title').innerHTML = 'HELLO'
 document.querySelector('#one').innerHTML = 'JavaScript'
 
+let a;
+a = document.querySelector('.title');
+
+a.innerHTML = 44444;
+
+let b = document.querySelector('.examplediv');
+
+b.innerHTML = 'Я фрилансер по жизни';
