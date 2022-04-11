@@ -75,6 +75,12 @@ body {
   padding: 30px;
   font-size: 40px;
 }
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .pad {
   padding-bottom: 20px;
 }
