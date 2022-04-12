@@ -72,21 +72,6 @@ h5.h6 {
   font-weight: 400;
 }
 body {
-  padding: 30px;
+  padding: 20px;
   font-size: 40px;
-}
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.title {
-  font-weight: 600;
-}
-.subtitle {
-  font-weight: 600;
-}
-.pad {
-  padding-bottom: 20px;
 }
