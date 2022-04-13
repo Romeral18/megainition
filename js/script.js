@@ -10,11 +10,20 @@ button.onclick = () => {
         console.log('sorry, but you can not vote. See you in next life');
     }
 
+    else if (num != 60) {
+        console.log('You suck!');
+    }
+
+
     else {
         alert('oooo, you are so young. Do not worry. See yo soon!');
     }
 
     switch (num) {
+        case 20:
+            console.log('Happy birthday');
+            break;
+
         case 24:
             console.log('ufff, you are very closed');
             break;
