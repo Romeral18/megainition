@@ -1,31 +1,36 @@
-let a = 26;
+const button = document.querySelector('button');
+const input = document.querySelector('.age');
 
-if (a < 25) {
-    console.log('you can not enter');
-}
-else if (a >= 25 && a < 60) {
-    console.log('you can enter');
-}
-else {
-    console.log('you are very old');
-}
+button.onclick = () => {
+    const num = +input.value;
+    if (num >= 25 && num < 60) {
+        console.log('You can vote');
+    }
+    else if (num >= 60) {
+        console.log('sorry, but you can not vote. See you in next life');
+    }
 
-switch (a) {
-    case 15:
-        console.log('you are very young to go');
-        break;
-    case 24:
-        console.log('you are near the access');
-        break;
-    case 25:
-        console.log('great!!!!!');
-        break;
-    default:
-        console.log('okkkkkk!');
-        break;
+    else {
+        alert('oooo, you are so young. Do not worry. See yo soon!');
+    }
+
+    switch (num) {
+        case 24:
+            console.log('ufff, you are very closed');
+            break;
+        case 25:
+            console.log('Congratulations, you can change this world');
+            break;
+        case 60:
+            console.log('you can not vote for anyone:(');
+            break;
+        default:
+            console.log('Have a good day, sir');
+            break;
+
+
+    }
 }
-
-
 
 
 
