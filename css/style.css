@@ -71,23 +71,9 @@ h5.h6 {
   font-size: inherit;
   font-weight: 400;
 }
-body {
-  padding: 20px;
-  font-size: 40px;
+.one {
+  color: black;
 }
-.container {
-  background-color: #8473c2;
-}
-.text-center {
-  text-align: center;
-  font-weight: 600;
-  margin-bottom: 30px;
-}
-.age {
-  border: 1px solid #000;
-}
-.idea {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  margin-bottom: 20px;
-  color: green;
+span {
+  font-size: 150px;
 }
