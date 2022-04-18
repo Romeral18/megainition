@@ -9,3 +9,8 @@ document.querySelector('.logpass').oninput = () => {
     spany.innerHTML = ranger;
 
 }
+
+document.querySelector('#btn-2').onclick = () => {
+    const about = document.querySelector('#about');
+    console.log(about.value);
+}
