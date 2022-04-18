@@ -10,7 +10,10 @@ document.querySelector('.logpass').oninput = () => {
 
 }
 
-document.querySelector('#btn-2').onclick = () => {
-    const about = document.querySelector('#about');
-    console.log(about.value);
+document.querySelector('#btn-2').onclick = (event) => {
+    event.preventDefault();
+    const form = document.querySelector('form');
+    console.log(form.elements.about.value);
+    console.log(form.elements.sometext.value);
 }
+
