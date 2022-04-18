@@ -76,12 +76,4 @@ body {
 }
 .logpass {
   border: 1px solid #000;
-  width: 150px;
-  height: 50px;
-}
-.logpass:hover {
-  box-shadow: 5px 5px 10px #f0a440;
-}
-.logpass:active {
-  box-shadow: 5px 5px 5px #924462;
 }
