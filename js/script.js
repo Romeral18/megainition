@@ -1,5 +1,5 @@
-let out = document.querySelector('.out');
-console.log(out);
+// let out = document.querySelector('.out');
+// console.log(out);
 
 // for (let i = 0; i < 5; i++) {
 //     for (let k = 0; k < 10; k++) {
@@ -8,22 +8,27 @@ console.log(out);
 //     out.innerHTML += '<br>';
 
 // }
+// let j = '*';
 
 // for (let i = 1; i <= 30; i++) {
-
-//     for (let k = 1; k <= i; k++) {
-//         out.innerHTML += '*';
+//     console.log(j);
+//     for (let k = 1; k <= 30; k++) {
+//         console.log(`${${ j } * k} `);
 //     }
-//     out.innerHTML += '<br>';
+
 // }
 
-for (let i = 1; i <= 9; i++) {
-    for (let k = 1; k <= 9; k++) {
-        for (let j = 1; j <= k; j++) {
-            out.innerHTML += '_';
-        }
-        out.innerHTML += `${i} * ${k} = ${k * i} <br> `
+// for (let i = 1; i <= 9; i++) {
+//     for (let k = 1; k <= 9; k++) {
+//         for (let j = 1; j <= k; j++) {
+//             out.innerHTML += '_';
+//         }
+//         out.innerHTML += `${ i } * ${ k } = ${ k * i } <br> `
 
-    }
-    out.innerHTML += '<hr>'
-}
+//     }
+//     out.innerHTML += '<hr>'
+// }
+
+// function one() {
+//     console.log('work');
+// }
