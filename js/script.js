@@ -9,10 +9,17 @@ console.log(out);
 
 // }
 
-for (let i = 1; i <= 30; i++) {
+// for (let i = 1; i <= 30; i++) {
 
-    for (let k = 1; k <= i; k++) {
-        out.innerHTML += '*';
+//     for (let k = 1; k <= i; k++) {
+//         out.innerHTML += '*';
+//     }
+//     out.innerHTML += '<br>';
+// }
+
+for (let i = 1; i <= 9; i++) {
+    for (let k = 1; k <= 9; k++) {
+        out.innerHTML += `${i} * ${k} = ${k * i} <br> `
     }
-    out.innerHTML += '<br>';
+    out.innerHTML += '<hr>'
 }
