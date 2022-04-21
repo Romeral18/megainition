@@ -9,7 +9,7 @@ console.log(out);
 
 // }
 
-for (let i = 1; i <= 25; i++) {
+for (let i = 1; i <= 30; i++) {
 
     for (let k = 1; k <= i; k++) {
         out.innerHTML += '*';
