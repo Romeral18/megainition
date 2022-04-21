@@ -1,5 +1,10 @@
-const out = document.querySelector('.out')
+const out = document.querySelector('.out');
+console.log(out);
 
 for (let i = 0; i < 5; i++) {
-    i.innerHTML = out;
+    for (let k = 0; k < 10; k++) {
+        out.innerHTML += '*';
+    }
+    out.innerHTML += '<br>';
+
 }
