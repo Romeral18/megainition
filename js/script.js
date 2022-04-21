@@ -42,7 +42,11 @@ document.querySelector('button').onclick = () => {
     }
 }
 
+let out = '';
 for (let i = 0; i < 10; i++) {
-
-    document.getElementById('out').innerHTML = i;
+    if (i == 6) continue;
+    out += i + ' ';
+    if (i == 6) continue;
+    // if (i == 6) break;
 }
+document.querySelector('#out').innerHTML = out;
