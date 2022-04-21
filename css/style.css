@@ -72,11 +72,5 @@ h5.h6 {
   font-weight: 400;
 }
 body {
-  padding: 20px;
-}
-.one {
-  margin: 0 0 20px 0;
-}
-h2 {
-  margin-bottom: 20px;
+  margin: 20px;
 }
