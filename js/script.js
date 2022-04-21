@@ -19,7 +19,11 @@ console.log(out);
 
 for (let i = 1; i <= 9; i++) {
     for (let k = 1; k <= 9; k++) {
+        for (let j = 1; j <= k; j++) {
+            out.innerHTML += '_';
+        }
         out.innerHTML += `${i} * ${k} = ${k * i} <br> `
+
     }
     out.innerHTML += '<hr>'
 }
