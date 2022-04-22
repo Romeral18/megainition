@@ -1,34 +1,37 @@
-// let out = document.querySelector('.out');
-// console.log(out);
+let f1 = document.querySelector('.f-1'); // button
+function one() {
+    console.log('work');
 
-// for (let i = 0; i < 5; i++) {
-//     for (let k = 0; k < 10; k++) {
-//         out.innerHTML += '*';
-//     }
-//     out.innerHTML += '<br>';
 
-// }
-// let j = '*';
+}
 
-// for (let i = 1; i <= 30; i++) {
-//     console.log(j);
-//     for (let k = 1; k <= 30; k++) {
-//         console.log(`${${ j } * k} `);
-//     }
+one();
 
-// }
+f1.onclick = one; //без круглых скобок
 
-// for (let i = 1; i <= 9; i++) {
-//     for (let k = 1; k <= 9; k++) {
-//         for (let j = 1; j <= k; j++) {
-//             out.innerHTML += '_';
-//         }
-//         out.innerHTML += `${ i } * ${ k } = ${ k * i } <br> `
 
-//     }
-//     out.innerHTML += '<hr>'
-// }
+console.log(1 + one());
+console.log(one());
 
-// function one() {
-//     console.log('work');
-// }
+function two() {
+    console.log('work 22222');
+    return 54;
+
+}
+
+two();
+
+console.log(1 + two());
+
+let a = 8;
+let b = 9;
+let c;
+
+function multi() {
+    console.log(a * b);
+    c = a * b;
+}
+
+multi();
+
+console.log(c);
