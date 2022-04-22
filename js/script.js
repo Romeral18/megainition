@@ -66,3 +66,21 @@ f2 = document.querySelector('.f-2').onclick = function () {
 f2 = document.querySelector('.f-2').onclick = () => {
     console.log('arrow');
 }
+const button = document.querySelector('.f-1');
+const out1 = document.querySelector('.out-1')
+
+
+button.onclick = function t1() {
+    out1.innerHTML = a1;
+    // }
+    let a2 = 20;
+    button.onclick = function t2() {
+        console.log('hi');
+        return a2;
+    }
+
+
+    const func = function (a, b) {
+        return a * b;
+
+    }
