@@ -7,7 +7,7 @@ function one() {
 
 one();
 
-f1.onclick = one; //без круглых скобок
+// f1.onclick = one; //без круглых скобок
 
 
 console.log(1 + one());
@@ -50,6 +50,19 @@ console.log(multi2(a, 6));
 console.log(multi2());
 console.log(multi2(10));
 
+// function (){}
+f1.onclick = function () {
+    console.log('Hello');
+}
 
+f1.onclick = () => {
+    console.log('=>>>>>>');
+}
 
+f2 = document.querySelector('.f-2').onclick = function () {
+    console.log('f22222222');
+}
 
+f2 = document.querySelector('.f-2').onclick = () => {
+    console.log('arrow');
+}
