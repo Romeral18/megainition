@@ -25,13 +25,31 @@ console.log(1 + two());
 
 let a = 8;
 let b = 9;
-let c;
+
 
 function multi() {
     console.log(a * b);
-    c = a * b;
+    return a * b;
 }
 
-multi();
 
-console.log(c);
+let c1 = multi();
+let c2 = 10 * multi();
+console.log(c1, c2);
+
+function multi2(x = 9, y = 8) {
+    return x * y;
+    // выполняться не будет/будет проигнрорировано
+
+}
+
+console.log(multi2(5, 6));
+console.log(multi2(33, 23));
+console.log(multi2(a, 6));
+
+console.log(multi2());
+console.log(multi2(10));
+
+
+
+
