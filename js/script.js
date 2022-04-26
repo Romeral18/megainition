@@ -54,4 +54,21 @@ a.style.left = '200px';
 
 document.querySelector('.one').appendChild(a);
 
+const ar1 = ['String', 18, 0]
+const j = document.createElement('div');
+
+
+j.classList.add('out');
+
+document.querySelector('.container').appendChild(j);
+
+const j1 = document.querySelector('.out');
+b1.onclick = () => {
+    j1.innerHTML = ar1;
+    console.log('lo');
+}
+
+const ar2 = ['Red', 34, 0];
+
+
 
