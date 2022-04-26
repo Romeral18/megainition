@@ -2,7 +2,7 @@ const one = document.querySelector('.one');
 const b1 = document.querySelector('.b-1');
 
 
-one.classList.add('one-2', 'one-3');
+one.classList.add('one-2');
 
 const f1 = function f1() {
     one.style.width = '200px';
@@ -26,10 +26,15 @@ b2.onclick = f2;
 
 const one3 = document.querySelector('.one-3');
 const b3 = document.querySelector('.b-3');
+const cont = document.querySelector('.container');
 
 const f3 = function f3() {
-    one3.classList.remove('one-3');
+    cont.children[4].classList.remove('one-3');
+    this.classList.add('three');
+    cont.children[3].setAttribute('data', 6);
 }
 
 b3.onclick = f3;
+
+
 
