@@ -6,16 +6,36 @@ const arroy = [
 
 for (let i = 0; i < arroy.length; i++) {
     for (let k = 0; k < arroy[i].length; k++) {
-        console.log(arroy[i][k]);
+        // console.log(arroy[i][k]);
     }
 }
 
 let out = '';
 for (let i = 0; i < arroy.length; i++) {
     for (let k = 0; k < arroy[i].length; k++) {
-        out = arroy[i][k];
+        if (arroy[i][k] > 4) {
+            out += arroy[i][k];
+        }
+
         document.querySelector('.out').innerHTML += out + ' ';
+
     }
-    document.querySelector('.out').innerHTML += '<br>';
+    out += '<br>';
 }
+console.log(out);
+
+const arroy3 = [1, 0, 0, 0, 0];
+let j = 0;
+document.querySelector('.out2').innerHTML = arroy3;
+
+document.querySelector('button').onclick = () => {
+    if (j + 1 < 5) {
+        arroy3[j] = 0;
+        arroy3[j + 1] = 1;
+        j++;
+    }
+    document.querySelector('.out2').innerHTML = arroy3;
+}
+
+
 
