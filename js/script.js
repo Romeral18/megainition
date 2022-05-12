@@ -38,4 +38,23 @@
 // }
 
 
+const a = {
+    "a": 'Hi',
+    "b": 1111,
+    "z2222": 'toodoo',
+
+};
+
+a.z = '4444';
+a.w55 = 44444;
+
+console.log(a);
+
+let out = '';
+delete a.b;
+for (let key in a) {
+    out += a[key];
+};
+document.querySelector('.out').innerHTML = out;
+
 
