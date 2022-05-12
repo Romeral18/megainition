@@ -74,3 +74,9 @@ h5.h6 {
 body {
   margin: 20px;
 }
+.pricing-table {
+  border: 2px solid #60da41;
+  max-width: 100px;
+  max-height: 300px;
+  text-align: center;
+}
