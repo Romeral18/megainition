@@ -104,3 +104,20 @@ document.querySelector('.greeting').onclick = () => {
     let a = inputName.value;
     console.log(t5(a));
 }
+//Task6
+
+function getRandomInt(c, d) {
+    c = Math.ceil(c);
+    d = Math.floor(d);
+    return Math.floor(Math.random() * (d - c)) + c;
+}
+
+document.querySelector('.randomNumberCount').onclick = () => {
+    const c = document.querySelector('.randomNumber-1').value;
+    const d = document.querySelector('.randomNumber-2').value;
+    console.log(c);
+    console.log(d);
+    console.log(getRandomInt(c, d));
+
+}
+
