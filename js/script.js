@@ -83,3 +83,14 @@ document.querySelector('.btn-3-1').onclick = function () {
 document.querySelector('.btn-3-2').onclick = function () {
     document.querySelector('.out-3').textContent = t3(5, 6);
 }
+
+function t4(a) {
+    return 2022 - a;
+}
+
+document.querySelector('.ageCount').onclick = () => {
+    const inputDate = document.querySelector('.birthdayDate');
+    console.log(inputDate.value);
+    let a = inputDate.value;
+    console.log(t4(a));
+}
