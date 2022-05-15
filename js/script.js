@@ -121,3 +121,30 @@ document.querySelector('.randomNumberCount').onclick = () => {
 
 }
 
+
+const a = 0;
+const b = 255;
+function getRndInteger(a, b) {
+    return Math.floor(Math.random() * (a - b + 1)) + b;
+}
+
+
+function t7() {
+    let x = getRndInteger(a, b);
+    let y = getRndInteger(a, b);
+    let z = getRndInteger(a, b);
+    return `rgb(${x},${y},${z})`
+}
+
+
+
+document.querySelector('.out-1').innerHTML = t7();
+
+document.querySelector('.randomizer').onclick = () => {
+
+    const randomColor = document.querySelector('.randomColour');
+    randomColor.style.backgroundColor = t7();
+    console.log(randomColor.style);
+
+}
+
