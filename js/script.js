@@ -94,3 +94,13 @@ document.querySelector('.ageCount').onclick = () => {
     let a = inputDate.value;
     console.log(t4(a));
 }
+
+function t5(name) {
+    return `Hello ${name}`;
+}
+document.querySelector('.greeting').onclick = () => {
+    const inputName = document.querySelector('.name');
+    console.log(inputName.value);
+    let a = inputName.value;
+    console.log(t5(a));
+}
