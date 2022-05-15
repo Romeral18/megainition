@@ -57,18 +57,29 @@
 // };
 // document.querySelector('.out').innerHTML = out;
 
+let a1 = 8;
 
+function t1() {
+    document.querySelector('.out-1').innerHTML = a1;
 
+}
+document.querySelector('.btn-1').onclick = t1;
 
+let a2 = 8;
+function t2() {
+    return a2;
 
-fetch('https://api.openweathermap.org/data/2.5/weather?q=London&appid=d452e2d45273ef84e1c20a282f104a13')
-    .then(function (resp) { return resp.json() }) // convert data to json
-    .then(function (data) {
-        console.log(data);
-        document.querySelector('.package-name').textContent = data.name;
-        document.querySelector('.price').innerHTML = Math.round(data.main.temp - 273) + '&deg;';
-        document.querySelector('.disclaimer').innerHTML = data.weather[0]['description'];
-    })
-    .catch(function () {
-        //catch any errors
-    })
+}
+document.querySelector('.btn-2').onclick = function () {
+    document.querySelector('.out-2').textContent = t2();
+}
+
+function t3(a, b) {
+    return a * b;
+}
+document.querySelector('.btn-3-1').onclick = function () {
+    document.querySelector('.out-3').textContent = t3(3, 4);
+}
+document.querySelector('.btn-3-2').onclick = function () {
+    document.querySelector('.out-3').textContent = t3(5, 6);
+}
